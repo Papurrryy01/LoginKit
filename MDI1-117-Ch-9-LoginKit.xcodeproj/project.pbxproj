@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A191104030770791008EFF48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A191102A3077078F008EFF48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A19110313077078F008EFF48;
+			remoteInfo = "MDI1-117-Ch-9-LoginKit";
+		};
+		A191104A30770791008EFF48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A191102A3077078F008EFF48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A19110313077078F008EFF48;
+			remoteInfo = "MDI1-117-Ch-9-LoginKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A19110323077078F008EFF48 /* MDI1-117-Ch-9-LoginKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDI1-117-Ch-9-LoginKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A191103F30770791008EFF48 /* MDI1-117-Ch-9-LoginKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MDI1-117-Ch-9-LoginKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A191104930770791008EFF48 /* MDI1-117-Ch-9-LoginKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MDI1-117-Ch-9-LoginKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A19110343077078F008EFF48 /* MDI1-117-Ch-9-LoginKit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MDI1-117-Ch-9-LoginKit";
+			sourceTree = "<group>";
+		};
+		A191104230770791008EFF48 /* MDI1-117-Ch-9-LoginKitTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MDI1-117-Ch-9-LoginKitTests";
+			sourceTree = "<group>";
+		};
+		A191104C30770791008EFF48 /* MDI1-117-Ch-9-LoginKitUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MDI1-117-Ch-9-LoginKitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A191102F3077078F008EFF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		A191103C30770791008EFF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		A191104630770791008EFF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A19110293077078F008EFF48 = {
+			isa = PBXGroup;
+			children = (
+				A19110343077078F008EFF48 /* MDI1-117-Ch-9-LoginKit */,
+				A191104230770791008EFF48 /* MDI1-117-Ch-9-LoginKitTests */,
+				A191104C30770791008EFF48 /* MDI1-117-Ch-9-LoginKitUITests */,
+				A19110333077078F008EFF48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A19110333077078F008EFF48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A19110323077078F008EFF48 /* MDI1-117-Ch-9-LoginKit.app */,
+				A191103F30770791008EFF48 /* MDI1-117-Ch-9-LoginKitTests.xctest */,
+				A191104930770791008EFF48 /* MDI1-117-Ch-9-LoginKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A19110313077078F008EFF48 /* MDI1-117-Ch-9-LoginKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A191105130770791008EFF48 /* Build configuration list for PBXNativeTarget "MDI1-117-Ch-9-LoginKit" */;
+			buildPhases = (
+				A191102E3077078F008EFF48 /* Sources */,
+				A191102F3077078F008EFF48 /* Frameworks */,
+				A19110303077078F008EFF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				A19110343077078F008EFF48 /* MDI1-117-Ch-9-LoginKit */,
+			);
+			name = "MDI1-117-Ch-9-LoginKit";
+			productName = "MDI1-117-Ch-9-LoginKit";
+			productReference = A19110323077078F008EFF48 /* MDI1-117-Ch-9-LoginKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A191103E30770791008EFF48 /* MDI1-117-Ch-9-LoginKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A191105430770791008EFF48 /* Build configuration list for PBXNativeTarget "MDI1-117-Ch-9-LoginKitTests" */;
+			buildPhases = (
+				A191103B30770791008EFF48 /* Sources */,
+				A191103C30770791008EFF48 /* Frameworks */,
+				A191103D30770791008EFF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A191104130770791008EFF48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A191104230770791008EFF48 /* MDI1-117-Ch-9-LoginKitTests */,
+			);
+			name = "MDI1-117-Ch-9-LoginKitTests";
+			productName = "MDI1-117-Ch-9-LoginKitTests";
+			productReference = A191103F30770791008EFF48 /* MDI1-117-Ch-9-LoginKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A191104830770791008EFF48 /* MDI1-117-Ch-9-LoginKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A191105730770791008EFF48 /* Build configuration list for PBXNativeTarget "MDI1-117-Ch-9-LoginKitUITests" */;
+			buildPhases = (
+				A191104530770791008EFF48 /* Sources */,
+				A191104630770791008EFF48 /* Frameworks */,
+				A191104730770791008EFF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A191104B30770791008EFF48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A191104C30770791008EFF48 /* MDI1-117-Ch-9-LoginKitUITests */,
+			);
+			name = "MDI1-117-Ch-9-LoginKitUITests";
+			productName = "MDI1-117-Ch-9-LoginKitUITests";
+			productReference = A191104930770791008EFF48 /* MDI1-117-Ch-9-LoginKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A191102A3077078F008EFF48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					A19110313077078F008EFF48 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					A191103E30770791008EFF48 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = A19110313077078F008EFF48;
+					};
+					A191104830770791008EFF48 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = A19110313077078F008EFF48;
+					};
+				};
+			};
+			buildConfigurationList = A191102D3077078F008EFF48 /* Build configuration list for PBXProject "MDI1-117-Ch-9-LoginKit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A19110293077078F008EFF48;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A19110333077078F008EFF48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A19110313077078F008EFF48 /* MDI1-117-Ch-9-LoginKit */,
+				A191103E30770791008EFF48 /* MDI1-117-Ch-9-LoginKitTests */,
+				A191104830770791008EFF48 /* MDI1-117-Ch-9-LoginKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A19110303077078F008EFF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		A191103D30770791008EFF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		A191104730770791008EFF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A191102E3077078F008EFF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		A191103B30770791008EFF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		A191104530770791008EFF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A191104130770791008EFF48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A19110313077078F008EFF48 /* MDI1-117-Ch-9-LoginKit */;
+			targetProxy = A191104030770791008EFF48 /* PBXContainerItemProxy */;
+		};
+		A191104B30770791008EFF48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A19110313077078F008EFF48 /* MDI1-117-Ch-9-LoginKit */;
+			targetProxy = A191104A30770791008EFF48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A191104F30770791008EFF48 /* Debug configuration for PBXProject "MDI1-117-Ch-9-LoginKit" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A191105030770791008EFF48 /* Release configuration for PBXProject "MDI1-117-Ch-9-LoginKit" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A191105230770791008EFF48 /* Debug configuration for PBXNativeTarget "MDI1-117-Ch-9-LoginKit" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MDI1-117-Ch-9-LoginKit.MDI1-117-Ch-9-LoginKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		A191105330770791008EFF48 /* Release configuration for PBXNativeTarget "MDI1-117-Ch-9-LoginKit" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MDI1-117-Ch-9-LoginKit.MDI1-117-Ch-9-LoginKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		A191105530770791008EFF48 /* Debug configuration for PBXNativeTarget "MDI1-117-Ch-9-LoginKitTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MDI1-117-Ch-9-LoginKit.MDI1-117-Ch-9-LoginKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDI1-117-Ch-9-LoginKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MDI1-117-Ch-9-LoginKit";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		A191105630770791008EFF48 /* Release configuration for PBXNativeTarget "MDI1-117-Ch-9-LoginKitTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MDI1-117-Ch-9-LoginKit.MDI1-117-Ch-9-LoginKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDI1-117-Ch-9-LoginKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MDI1-117-Ch-9-LoginKit";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		A191105830770791008EFF48 /* Debug configuration for PBXNativeTarget "MDI1-117-Ch-9-LoginKitUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MDI1-117-Ch-9-LoginKit.MDI1-117-Ch-9-LoginKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "MDI1-117-Ch-9-LoginKit";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		A191105930770791008EFF48 /* Release configuration for PBXNativeTarget "MDI1-117-Ch-9-LoginKitUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MDI1-117-Ch-9-LoginKit.MDI1-117-Ch-9-LoginKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "MDI1-117-Ch-9-LoginKit";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A191102D3077078F008EFF48 /* Build configuration list for PBXProject "MDI1-117-Ch-9-LoginKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A191104F30770791008EFF48 /* Debug configuration for PBXProject "MDI1-117-Ch-9-LoginKit" */,
+				A191105030770791008EFF48 /* Release configuration for PBXProject "MDI1-117-Ch-9-LoginKit" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		A191105130770791008EFF48 /* Build configuration list for PBXNativeTarget "MDI1-117-Ch-9-LoginKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A191105230770791008EFF48 /* Debug configuration for PBXNativeTarget "MDI1-117-Ch-9-LoginKit" */,
+				A191105330770791008EFF48 /* Release configuration for PBXNativeTarget "MDI1-117-Ch-9-LoginKit" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		A191105430770791008EFF48 /* Build configuration list for PBXNativeTarget "MDI1-117-Ch-9-LoginKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A191105530770791008EFF48 /* Debug configuration for PBXNativeTarget "MDI1-117-Ch-9-LoginKitTests" */,
+				A191105630770791008EFF48 /* Release configuration for PBXNativeTarget "MDI1-117-Ch-9-LoginKitTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		A191105730770791008EFF48 /* Build configuration list for PBXNativeTarget "MDI1-117-Ch-9-LoginKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A191105830770791008EFF48 /* Debug configuration for PBXNativeTarget "MDI1-117-Ch-9-LoginKitUITests" */,
+				A191105930770791008EFF48 /* Release configuration for PBXNativeTarget "MDI1-117-Ch-9-LoginKitUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A191102A3077078F008EFF48 /* Project object */;
+	validationLevel = 1;
+}
