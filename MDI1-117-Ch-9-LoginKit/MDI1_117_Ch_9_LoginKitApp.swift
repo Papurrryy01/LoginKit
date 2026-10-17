@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+#if canImport(UIKit)
+import UIKit
+#endif
 
 @main
 struct MDI1_117_Ch_9_LoginKitApp: App {
@@ -14,6 +17,11 @@ struct MDI1_117_Ch_9_LoginKitApp: App {
         if ProcessInfo.processInfo.arguments.contains("-UITesting-Reset") {
             SessionStore().clear()
         }
+        #if canImport(UIKit)
+        if ProcessInfo.processInfo.arguments.contains("-UITesting-NoAnimations") {
+            UIView.setAnimationsEnabled(false)
+        }
+        #endif
     }
  
     var body: some Scene {

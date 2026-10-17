@@ -1,17 +1,18 @@
 //
 //  LoginView.swift
-//  MDI1-117-Ch-9-LoginKit
+//  LoginKit
 //
-//  Created by Carlos Vera on 10/7/26.
+//  Created by Carlos Vera on 10/10/26.
 //
 
 import SwiftUI
 
 struct LoginView: View {
-    @StateObject private var viewModel: LoginViewModel
+    @State private var viewModel: LoginViewModel
+    @State private var showPassword = false
 
     init(authService: AuthServiceProtocol = AuthService()) {
-        _viewModel = StateObject(wrappedValue: LoginViewModel(authService: authService))
+        _viewModel = State(initialValue: LoginViewModel(authService: authService))
     }
 
     var body: some View {
@@ -28,9 +29,26 @@ struct LoginView: View {
                     .autocorrectionDisabled()
                     .accessibilityIdentifier("email_field")
 
-                SecureField("Password", text: $viewModel.password)
-                    .textFieldStyle(.roundedBorder)
-                    .accessibilityIdentifier("password_field")
+
+                HStack {
+                    if showPassword {
+                        TextField("Password", text: $viewModel.password)
+                            .textFieldStyle(.roundedBorder)
+                            .accessibilityIdentifier("password_field")
+                    } else {
+                        SecureField("Password", text: $viewModel.password)
+                            .textFieldStyle(.roundedBorder)
+                            .accessibilityIdentifier("password_field")
+                    }
+
+                    Button {
+                        showPassword.toggle()
+                    } label: {
+                        Image(systemName: showPassword ? "eye.slash" : "eye")
+                    }
+                    .accessibilityIdentifier("toggle_password_visibility")
+                    .accessibilityLabel(showPassword ? "Hide password" : "Show password")
+                }
 
                 Toggle("Remember Me", isOn: $viewModel.rememberMe)
                     .accessibilityIdentifier("remember_me_toggle")
@@ -52,9 +70,17 @@ struct LoginView: View {
                     }
                 }
                 .accessibilityIdentifier("login_button")
-                .disabled(viewModel.isLoading)
+                .disabled(!viewModel.canLogin)
             }
             .padding()
+            .task(id: viewModel.isLockedOut) {
+                await viewModel.recoverFromLockout()
+            }
+            .transaction { transaction in
+                if ProcessInfo.processInfo.arguments.contains("-UITesting-NoAnimations") {
+                    transaction.disablesAnimations = true
+                }
+            }
             .navigationDestination(item: $viewModel.loggedInUser) { user in
                 DashboardView(user: user, onLogout: { viewModel.logout() })
             }
